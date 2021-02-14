@@ -170,7 +170,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
+  githubConvertedToken: "05b900ad6c9a59314efd685acb989f1c7231ba6c",
   githubUserName: "jayhawk24", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true, // Set false to hide this section, defaults to true
@@ -336,8 +336,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  emailAddress: "saadpasta70@gmail.com",
+  number: "anubhavthrilling24@gmail.com",
+  emailAddress: "anubhavthrilling24@gmail.com",
 };
 
 // Twitter Section
