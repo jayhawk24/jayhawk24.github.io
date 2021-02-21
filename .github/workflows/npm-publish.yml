@@ -25,4 +25,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.REACT_APP_GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: dist
+          FOLDER: build
