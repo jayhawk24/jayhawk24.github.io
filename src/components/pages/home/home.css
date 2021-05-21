@@ -1,0 +1,94 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    font-family: var(--secFont);
+    display: flex;
+}
+.sidebar {
+    width: 40%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sidebar > * {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.domain span {
+    color: var(--lightroyalblue);
+}
+.intro p {
+    font-size: 1.2em;
+    color: var(--lightroyalblue);
+}
+.intro p img {
+    width: 30px;
+}
+
+.intro h1 {
+    font-size: 7.5em;
+    width: 200%;
+    font-family: var(--mainFont);
+    font-weight: 900;
+    position: relative;
+}
+.intro h5 {
+    font-size: 1.2em;
+    line-height: 1.8em;
+}
+.intro button {
+    padding: 25px 50px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+/*
+  --------------------------------------------------------
+  
+  Home Start
+  
+      banner
+  
+  --------------------------------------------------------
+  */
+.banner {
+    background-color: var(--background);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner img {
+    width: 50%;
+    background-color: var(--background);
+}
+.banner p {
+    color: #fff;
+    margin: 40px 0px;
+    width: 50%;
+    word-spacing: 5px;
+    font-size: 1.2em;
+}
+.banner button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: rgba(00, 00, 00, 0.1);
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 50px 0px;
+}
+.banner button:hover {
+    color: white;
+    box-shadow: 0px 2px 5px #535461;
+}

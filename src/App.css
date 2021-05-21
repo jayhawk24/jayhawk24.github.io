@@ -1,0 +1,9 @@
+:root {
+    --mainFont: 'Oswald', sans-serif;
+    --secFont: 'Roboto Condensed', sans-serif;
+
+    --lightroyalblue: rgb(149, 168, 223);
+    --backblue: rgb(59, 60, 78);
+    --background: rgb(14, 12, 56);
+    --back2: #201e60;
+}
