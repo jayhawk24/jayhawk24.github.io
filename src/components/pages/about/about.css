@@ -1,0 +1,89 @@
+.about {
+    font-family: var(--secFont);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about img {
+    width: 50%;
+}
+.content {
+    width: 40%;
+}
+.content h1 {
+    font-size: 5em;
+    font-family: var(--mainFont);
+}
+span {
+    color: var(--lightroyalblue);
+}
+.content p {
+    font-size: 1.2em;
+    width: 70%;
+}
+.content ul {
+    padding: 20px;
+    padding-left: 50px;
+    list-style-type: none;
+    font-size: 1.2em;
+}
+.quote {
+    font-size: 1.4em;
+}
+
+.skillset {
+    background-color: var(--background);
+    flex-direction: column;
+    font-family: var(--secFont);
+}
+.skillset h1 {
+    font-size: 3em;
+    margin-top: 50px;
+}
+.skillset .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icons-container {
+    margin: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.icons-container .tools {
+    width: 100%;
+    flex-wrap: nowrap;
+}
+.icons-container i {
+    border: 1px solid var(--lightroyalblue);
+    height: 100px;
+    width: 100px;
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px var(--lightroyalblue);
+    transition: all 0.3s ease;
+    margin: 10px;
+}
+.icons-container i:hover {
+    box-shadow: 0px 0px 10px var(--lightroyalblue);
+    transform: scale(1.1);
+}
+.container h1:last-child {
+    margin: 0px;
+    padding: 0px;
+}

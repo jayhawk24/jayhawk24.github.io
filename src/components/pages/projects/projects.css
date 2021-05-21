@@ -1,0 +1,22 @@
+.projects {
+    font-family: var(--secFont);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: var(--mainFont);
+}
+span {
+    color: var(--lightroyalblue);
+}
+.cards-container {
+    height: 80vh;
+    overflow: scroll;
+    scrollbar-width: 0px;
+    overflow-x: hidden;
+}
