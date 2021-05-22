@@ -40,8 +40,7 @@ export default function About() {
                         </ul>
 
                         <span class="quote">
-                            {' '}
-                            "Write code that changes Lives..."{' '}
+                            "Write code that changes Lives..."
                         </span>
                     </div>
 
