@@ -24,7 +24,7 @@ span {
   h1 {
     font-size: 2em;
   }
-  body {
+  .projects .row {
     overflow: hidden;
   }
   .card-title {

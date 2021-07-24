@@ -1,9 +1,9 @@
 import React from "react";
 import "./projects.css";
-import BgContainer from "../../main/BgContainer";
-import Card from "../../main/Card";
+import BgContainer from "../core/BgContainer";
+import Card from "../core/Card";
 import Carousel from "react-elastic-carousel";
-import useWindowSize from "../../useWindowSize";
+import useWindowSize from "../useWindowSize";
 
 export default function Projects() {
   const { width } = useWindowSize();

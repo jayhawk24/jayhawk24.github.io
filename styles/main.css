@@ -59,6 +59,16 @@
   
   --------------------------------------------------------
   */
+.bg-container {
+  background-image: linear-gradient(
+      rgba(32, 30, 96, 0.8),
+      rgba(32, 30, 96, 0.8)
+    ),
+    url("../public/assets/shattered-island.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .banner {
   background-color: var(--background);
   width: 100%;
@@ -94,9 +104,6 @@
 }
 
 @media only screen and (max-width: 750px) {
-  body {
-    overflow-x: hidden;
-  }
   .sidebar {
     width: 90%;
   }
@@ -109,6 +116,9 @@
   .banner {
     height: 100vh;
     width: 90%;
+  }
+  .banner img {
+    margin-top: 50px;
   }
   .home {
     flex-wrap: wrap;
