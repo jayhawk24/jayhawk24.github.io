@@ -109,6 +109,7 @@
 @media only screen and (max-width: 750px) {
   .sidebar {
     width: 90%;
+    margin-left: -20px;
   }
   .intro h1 {
     font-size: 3.5em;
@@ -117,11 +118,11 @@
     padding: 15px 25px;
   }
   .banner {
-    height: 100vh;
+    height: 115vh;
     width: 90%;
   }
   .banner img {
-    margin-top: 50px;
+    margin-top: 150px;
   }
   .home {
     flex-wrap: wrap;

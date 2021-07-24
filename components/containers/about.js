@@ -10,7 +10,7 @@ export default function About() {
               Know Who <span> I Am </span>
             </h1>
             <p>
-              Hi guys, I am <span>Anubhav Gupta</span> from
+              🙏 Namaste, I am <span>Anubhav Gupta</span> from
               <span>Varanasi, India.</span>
               <br />
               I am a final year student at GKV pursuing B.Tech specialized in

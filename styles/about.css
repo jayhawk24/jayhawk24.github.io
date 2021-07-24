@@ -91,9 +91,22 @@ span {
   .content {
     width: 90%;
   }
+  .content h1 {
+    font-size: 3em;
+    margin-top: 20px;
+  }
+  .content p {
+    margin-top: 40px;
+  }
   .about {
     height: 130vh;
     flex-wrap: wrap;
+  }
+  .skillset h1 {
+    width: 80%;
+  }
+  .icons-container {
+    margin-left: -50px;
   }
   ul li i {
     margin-bottom: 10px;

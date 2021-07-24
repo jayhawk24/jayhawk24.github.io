@@ -101,4 +101,11 @@ nav li a:hover {
   .github-corner .octo-arm {
     animation: octocat-wave 560ms ease-in-out;
   }
+  nav {
+    position: fixed;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
 }
