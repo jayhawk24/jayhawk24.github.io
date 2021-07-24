@@ -69,6 +69,9 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.icons {
+  display: flex;
+}
 .banner {
   background-color: var(--background);
   width: 100%;

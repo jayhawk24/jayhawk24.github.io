@@ -1,13 +1,11 @@
 import React from "react";
-import "./about.css";
-import BgContainer from "../core/BgContainer";
 
 export default function About() {
   return (
     <div>
-      <BgContainer>
-        <section class="about">
-          <div class="content">
+      <div className="bg-container">
+        <section className="about">
+          <div className="content">
             <h1>
               Know Who <span> I Am </span>
             </h1>
@@ -25,58 +23,58 @@ export default function About() {
 
             <ul>
               <li>
-                <i class="fa fa-angle-right"></i> Playing Basketball
+                <i className="fa fa-angle-right"></i> Playing Basketball
               </li>
               <li>
-                <i class="fa fa-angle-right"></i> Chess
+                <i className="fa fa-angle-right"></i> Chess
               </li>
               <li>
-                <i class="fa fa-angle-right"></i> Hiking
+                <i className="fa fa-angle-right"></i> Hiking
               </li>
               <li>
-                <i class="fa fa-angle-right"></i> Swimming
+                <i className="fa fa-angle-right"></i> Swimming
               </li>
             </ul>
 
-            <span class="quote">"Write code that changes Lives..."</span>
+            <span className="quote">"Write code that changes Lives..."</span>
           </div>
 
           <img src="assets/coding.svg" alt="" />
         </section>
-      </BgContainer>
-      <section class="skillset">
-        <div class="container">
+      </div>
+      <section className="skillset">
+        <div className="container">
           <h1>
             Technical <span>Skillset</span>
           </h1>
-          <div class="icons-container">
-            <i class="devicon-python-plain-wordmark"></i>
-            <i class="devicon-react-original-wordmark colored"></i>
-            <i class="devicon-bash-plain"></i>
-            <i class="devicon-cplusplus-plain"></i>
-            <i class="devicon-css3-plain"></i>
-            <i class="devicon-docker-plain-wordmark"></i>
-            <i class="devicon-django-plain"></i>
-            <i class="devicon-html5-plain"></i>
-            <i class="devicon-git-plain"></i>
-            <i class="devicon-javascript-plain"></i>
-            <i class="devicon-jquery-plain-wordmark"></i>
-            <i class="devicon-mongodb-plain-wordmark"></i>
-            <i class="devicon-nodejs-plain-wordmark"></i>
-            <i class="devicon-npm-original-wordmark"></i>
-            <i class="devicon-php-plain"></i>
+          <div className="icons-container">
+            <i className="devicon-python-plain-wordmark"></i>
+            <i className="devicon-react-original-wordmark colored"></i>
+            <i className="devicon-bash-plain"></i>
+            <i className="devicon-cplusplus-plain"></i>
+            <i className="devicon-css3-plain"></i>
+            <i className="devicon-docker-plain-wordmark"></i>
+            <i className="devicon-django-plain"></i>
+            <i className="devicon-html5-plain"></i>
+            <i className="devicon-git-plain"></i>
+            <i className="devicon-javascript-plain"></i>
+            <i className="devicon-jquery-plain-wordmark"></i>
+            <i className="devicon-mongodb-plain-wordmark"></i>
+            <i className="devicon-nodejs-plain-wordmark"></i>
+            <i className="devicon-npm-original-wordmark"></i>
+            <i className="devicon-php-plain"></i>
           </div>
         </div>
-        <div class="container">
+        <div className="container">
           <h1>
             <span>Tools</span> I use
           </h1>
-          <div class="icons-container tools">
-            <i class="devicon-github-original"></i>
-            <i class="devicon-photoshop-line"></i>
-            <i class="devicon-vim-plain"></i>
-            <i class="devicon-visualstudio-plain"></i>
-            <i class="devicon-linux-plain"></i>
+          <div className="icons-container tools">
+            <i className="devicon-github-original"></i>
+            <i className="devicon-photoshop-line"></i>
+            <i className="devicon-vim-plain"></i>
+            <i className="devicon-visualstudio-plain"></i>
+            <i className="devicon-linux-plain"></i>
           </div>
         </div>
       </section>

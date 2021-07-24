@@ -1,15 +1,14 @@
 import React from "react";
-import SocialIcons from "../core/socail-icons/SocialIcons";
-import Container from "../core/Container";
+import SocialIcons from "../core/SocialIcons";
 
 export default function Main() {
   return (
-    <section class="home">
+    <section className="home">
       <div className="sidebar bg-container">
-        <div class="domain">
+        <div className="domain">
           jayhawk<span>.github.io</span>
         </div>
-        <div class="intro">
+        <div className="intro">
           <p>
             Hello, <img src="assets/hi.png" alt="" />
           </p>
@@ -20,7 +19,7 @@ export default function Main() {
           </h5>
           <button>CONTACT ME</button>
         </div>
-        <Container>
+        <div className="icons">
           <SocialIcons
             link={"https://twitter.com/jayh4wk"}
             icon={"fab fa-twitter"}
@@ -33,9 +32,9 @@ export default function Main() {
             link={"https://www.instagram.com/__jayhawk__"}
             icon={"fab fa-instagram"}
           />
-        </Container>
+        </div>
       </div>
-      <div class="banner">
+      <div className="banner">
         <img src="assets/undraw_coding_6mjf.svg" alt="illustration" />
         <p>
           A passionate Full Stack Software Developer 🚀 having an experience of

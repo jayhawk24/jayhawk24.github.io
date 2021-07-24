@@ -1,10 +1,10 @@
-import Main from "../components/containers/main";
 import Layout from "../components/Layout";
+import About from "../components/containers/about";
 
 export default function Home() {
   return (
     <Layout>
-      <Main />
+      <About />
     </Layout>
   );
 }

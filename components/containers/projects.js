@@ -1,5 +1,4 @@
 import React from "react";
-import "./projects.css";
 import BgContainer from "../core/BgContainer";
 import Card from "../core/Card";
 import Carousel from "react-elastic-carousel";
@@ -9,7 +8,7 @@ export default function Projects() {
   const { width } = useWindowSize();
   const isWide = width > 750 ? true : false;
   return (
-    <BgContainer className="projects row">
+    <div className="projects row bg-container">
       <div className="container w-50 text-center mt-3 mb-0">
         <h1 className="text-white text-xxl-center">
           My Recent <span>Works</span>
@@ -65,6 +64,6 @@ export default function Projects() {
           link={"https://github.com/jayhawk24/orastudio"}
         />
       </Carousel>
-    </BgContainer>
+    </div>
   );
 }
