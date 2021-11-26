@@ -33,7 +33,7 @@ export default function Main() {
                         icon={'fab fa-twitter'}
                     />
                     <SocialIcons
-                        link={'https://github.com/jayhawk24' + socials.github}
+                        link={'https://github.com/' + socials.github}
                         icon={'fab fa-github'}
                     />
                     <SocialIcons
