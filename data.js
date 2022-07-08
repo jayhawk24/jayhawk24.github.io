@@ -45,6 +45,12 @@ export const about = {
 
 export const projects = [
     {
+        title: "Crispy",
+        imgSrc: "assets/crispy.png",
+        desc: "Shorten links blazingly fast, Fully serverless.",
+        link: "https://github.com/jayhawk24/crispy"
+    },
+    {
         title: "V80 Stocks",
         imgSrc: "assets/v80.jpg",
         desc: "List of stocks below 200 DMA which are in Vivek Singhal's v40 and v40 next stocks list.",
