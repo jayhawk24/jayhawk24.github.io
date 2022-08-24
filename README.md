@@ -1,4 +1,4 @@
-# Checkout video on youtube to get build your portfolio quickly.
+# Checkout video on youtube to build your portfolio quickly.
 ### https://www.youtube.com/watch?v=syZBB7Vc1pc
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
