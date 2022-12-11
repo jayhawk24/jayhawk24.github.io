@@ -1,6 +1,6 @@
-import Navbar from './core/Navbar';
-import Head from 'next/head';
-import { home } from '../data';
+import Navbar from "./core/Navbar";
+import Head from "next/head";
+import { home } from "../data";
 
 const Layout = ({ children }) => (
     <div>

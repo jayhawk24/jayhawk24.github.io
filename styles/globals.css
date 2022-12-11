@@ -1,29 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  color: aliceblue;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    color: aliceblue;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 :root {
-  --mainFont: "Oswald", sans-serif;
-  --secFont: "Roboto Condensed", sans-serif;
+    --mainFont: "Oswald", sans-serif;
+    --secFont: "Roboto Condensed", sans-serif;
 
-  --lightroyalblue: #95a8df;
-  --backblue: #3b3c4e;
-  --background: #0e0c38;
-  --back2: #211f61;
+    --lightroyalblue: #95a8df;
+    --backblue: #3b3c4e;
+    --background: #0e0c38;
+    --back2: #211f61;
 }
