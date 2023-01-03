@@ -8,14 +8,15 @@ export default function Blog() {
         <Layout>
             <div className="bg-secondary-800 min-h-screen w-screen h-full">
                 <div className="max-w-6xl m-auto pl-2 pr-8 sm:px-5 py-5">
-                    <h1 className="text-6xl">Latest Articles 🎈</h1>
+                    <h1 className="text-6xl mb-8 ">Latest Articles 🎈</h1>
                     <div className="grid lg:grid-cols-2 gap-6 md:gap-x-8 md:gap-y-14 my-14 pr-8">
                         <BlogCardBig
-                            title="Lenovo's smarter devices stoke the fires of the smart home"
-                            desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, aliquam! Quasi omnis quo voluptatem tempora delectus nemo ex doloremque molestiae."
+                            title="Passing state from child to parent using refs in React"
+                            desc="Using class components and refs, we can pass state from child to parent. This is somewhat of a hacky way to do it, but it works."
                             imgSrc="/assets/estore.png"
                             tag="Tech"
                             date="May 20, 2021"
+                            href={"/blog/passing-state-to-parent-using-refs"}
                         />
                         <div className="grid gap-6 md:gap-8 pr-4">
                             <BlogCardSm
@@ -24,6 +25,9 @@ export default function Blog() {
                                 imgSrc={"/assets/crispy.png"}
                                 tag="Tech"
                                 date="May 20, 2021"
+                                href={
+                                    "/blog/how-ai-and-teams-are-benefitting-the-littlest-of-patients"
+                                }
                             />
                             <BlogCardSm
                                 title="How AI and Teams are benefitting the littlest of patients"
@@ -31,6 +35,9 @@ export default function Blog() {
                                 imgSrc={"/assets/crispy.png"}
                                 tag="Tech"
                                 date="May 20, 2021"
+                                href={
+                                    "/blog/how-ai-and-teams-are-benefitting-the-littlest-of-patients"
+                                }
                             />
                             <BlogCardSm
                                 title="How AI and Teams are benefitting the littlest of patients"
@@ -38,6 +45,9 @@ export default function Blog() {
                                 imgSrc={"/assets/crispy.png"}
                                 tag="Tech"
                                 date="May 20, 2021"
+                                href={
+                                    "/blog/how-ai-and-teams-are-benefitting-the-littlest-of-patients"
+                                }
                             />
                         </div>
                     </div>

@@ -1,16 +1,16 @@
-import React from 'react';
-import SocialIcons from '../core/SocialIcons';
-import { home, socials } from '../../data';
+import React from "react";
+import SocialIcons from "../core/SocialIcons";
+import { home, socials } from "../../data";
 
 export default function Main() {
-    const domain = home.domain.split('.');
+    const domain = home.domain.split(".");
 
     return (
         <section className="home">
             <div className="sidebar bg-container">
                 <div className="domain">
                     {domain.slice(0, 1)[0]}
-                    <span>.{domain.slice(1).join('.')}</span>
+                    <span>.{domain.slice(1).join(".")}</span>
                 </div>
 
                 <div className="intro">
@@ -20,7 +20,7 @@ export default function Main() {
                     <h1>I'm {home.name}</h1>
                     <h5>{home.subtitle}</h5>
                     <a
-                        href={'mailto:' + home.email}
+                        href={"mailto:" + home.email}
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -29,21 +29,24 @@ export default function Main() {
                 </div>
                 <div className="icons">
                     <SocialIcons
-                        link={'https://twitter.com/' + socials.twitter}
-                        icon={'fab fa-twitter'}
+                        link={"https://twitter.com/" + socials.twitter}
+                        icon={"fab fa-twitter"}
                     />
                     <SocialIcons
-                        link={'https://github.com/' + socials.github}
-                        icon={'fab fa-github'}
+                        link={"https://github.com/" + socials.github}
+                        icon={"fab fa-github"}
                     />
                     <SocialIcons
-                        link={'https://www.instagram.com/' + socials.instagram}
-                        icon={'fab fa-instagram'}
+                        link={"https://www.instagram.com/" + socials.instagram}
+                        icon={"fab fa-instagram"}
                     />
                 </div>
             </div>
             <div className="banner">
-                <img src="assets/undraw_coding_6mjf.svg" alt="illustration" />
+                <img
+                    src="assets/undraw_firmware_re_fgdy.svg"
+                    alt="illustration"
+                />
                 <p>
                     {home.desc}
                     <br />

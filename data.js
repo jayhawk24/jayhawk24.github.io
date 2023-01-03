@@ -17,8 +17,8 @@ export const socials = {
 
 export const about = {
     aboutMe:
-        "🙏 Namaste, I am Anubhav Gupta from Varanasi, India I am a Full Stack Developer at Gigwalla. Apart from coding, there are a lot of activities I love to do like...",
-    hobbies: ["Basketball", "Chess", "Hiking", "Swimming"],
+        "🙏 Namaste, I am Anubhav Gupta from Varanasi, India I am a Full Stack Developer at Steinn Labs. Apart from coding, there are a lot of activities I love to do like...",
+    hobbies: ["Basketball", "Chess", "Trekking", "Swimming"],
     quote: "Write code that changes Lives...",
     skills: [
         "nextjs",

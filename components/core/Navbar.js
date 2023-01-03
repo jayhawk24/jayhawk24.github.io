@@ -30,7 +30,7 @@ export default function Navbar() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/blog">
+                    <Link href="/blogs">
                         <a>Blog</a>
                     </Link>
                 </li>
