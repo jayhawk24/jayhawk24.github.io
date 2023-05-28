@@ -45,6 +45,12 @@ export const about = {
 
 export const projects = [
     {
+        title: "Book Naav",
+        imgSrc: "assets/booknaav.png",
+        desc: "Shorten links blazingly fast, Fully serverless.",
+        link: "https://github.com/Booknav/booknav-app"
+    },
+    {
         title: "Crispy",
         imgSrc: "assets/crispy.png",
         desc: "Shorten links blazingly fast, Fully serverless.",
