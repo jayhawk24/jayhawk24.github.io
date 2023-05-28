@@ -47,8 +47,8 @@ export const projects = [
     {
         title: "Book Naav",
         imgSrc: "assets/booknaav.png",
-        desc: "Shorten links blazingly fast, Fully serverless.",
-        link: "https://github.com/Booknav/booknav-app"
+        desc: "Book boats easily in varanasi, Support local boatmen.",
+        link: "https://github.com/jayhawk24/booknav-frontend"
     },
     {
         title: "Crispy",
